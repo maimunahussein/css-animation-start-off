@@ -1,0 +1,62 @@
+ /* .heading{
+    color: #0000ff;
+    font-size: 15px ;
+    transition-property: all;
+    transition-duration: 2s;
+    /* transition: all 0.5s; */
+    /* transition-delay: 0s; */
+    /* transition timing func */
+    /* transition-timing-function: ease-in-out;} */ */
+/* .heading:hover{
+    color: pink;
+    font-size: 80px;
+    /* letter-spacing: 10px; */
+ /* }     */ */
+
+/* .heading{
+    color: darkblue;
+    font-size: 15px;
+    transition-property: font-size;
+    transition-duration: .5s;
+    transition-delay:1s ;
+    transition-timing-function: ease-in;
+}
+.heading:hover{
+color: red;
+font-size: 25px;
+} */
+
+
+
+ /* transition:property duration timingfunction delay; 
+.heading{
+    color: darkblue;
+    font-size: 15px;
+    transition: font-size o.5s ease-in 1s; 
+   transition: all 1s ease-in 1s;
+} */
+ .heading:hover{
+color: greenyellow;
+font-size: 10px; }
+
+
+.box{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+     top: 50%;
+     left: 50%; 
+     transform: translate(-50%, -50%); 
+    background: red;
+    border: 1px solid black;
+    animation-name: grow;
+    animation-duration: 2s;
+}
+@keyframes grow {
+    from{width: 50px; height: 50px; background: red; }
+    to{width: 50px; height: 100px; background: green; }
+}
+
+
+
+
